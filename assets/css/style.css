@@ -1,0 +1,73 @@
+.head-component a {
+    text-decoration: none;
+    color: white;
+}
+.collection-item,
+.material-icons {
+    font-size: larger;
+    cursor: pointer;
+}
+.clear {
+    clear: both;
+}
+.button-collapse {
+    color: black;
+}
+td {
+    font-weight: 700;
+    font-family: cursive;
+}
+h1 {
+    font-family: 'Kaushan Script', cursive;
+}
+.collection-header {
+    font-family: 'Niconne', cursive !important;
+}
+li {
+    font-family: 'Tangerine', cursive;
+    font-size: 40px !important;
+}
+.active{
+  background-color:#45B39D;
+}
+.head-text {
+    font-family: serif;
+}
+.bordered {
+    border: 1px solid #D5D8DC;
+}
+.content-wrapper {
+    min-height: 82vh;
+    background-color: #E8F8F5;
+}
+.body-content {
+    margin-top: 25px;
+}
+.colors {
+    margin-top: 12%;
+}
+.body-image {
+    padding-top: 70px !important;
+    min-height: 270px !important;
+}
+img {
+    width: 300px;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    
+    .content-wrapper {
+        min-height: 79vh;
+    }
+    .body-image {
+        padding-top: 0px !important;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    
+    .content-wrapper {
+        min-height: 89vh;
+    }
+    .body-image {
+        padding-top: 0px !important;
+    }
+}

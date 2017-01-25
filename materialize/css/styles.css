@@ -1,0 +1,82 @@
+.main-wrapper{
+	background-image: url("../../images/horizon_2.jpg");
+	background-size: cover;
+	min-height: 100vh;
+	background-position: fixed;
+}
+
+/* header style starts */
+.header-logo{
+	background-color: transparent !important;
+}
+
+.header-title{
+	vertical-align: top;
+	font-size: 20px;
+	font-family: verdana;
+	color: #d8e3c2;
+}
+
+.header-image{
+	height: 74px;
+}
+
+.header-title-mini{
+	vertical-align: top;
+	font-size: 40px;
+	font-family:arial;
+	font-weight: 800;
+	color: #b8dd60;
+}
+
+.user-image{
+	height: 50px !important;
+	vertical-align: middle;
+}
+.user-icon{
+	margin: 0 auto;
+}
+/* header style ends */
+
+
+.loginwrapper{
+	padding-top: 80px;
+}
+
+.breakline{
+	color: #fff;
+}
+.register-form{
+	width : 22%;
+	margin :0 auto;
+
+}
+
+.login-form{
+	width: 65%;
+	margin: 0 auto;
+}
+
+.log-btn {
+  font-family: Arial;
+  background-color: #cfd8dc;
+  border: none;
+  padding: 5px 20px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+}
+.log-btn:hover {
+  background-color: #eee;
+}
+.log-btn:disabled {
+  background-color: #eee;
+  color: #aaa;
+  cursor: auto;
+}
+.log-btn:active {
+	background-color: #eee;
+}
+
+
